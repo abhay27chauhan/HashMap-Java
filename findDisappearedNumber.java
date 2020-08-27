@@ -1,7 +1,9 @@
 import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.List;
 class findDisappearedNumber{
 
-    public List<Integer> findDisappearedNumbers(int[] nums) {
+    public static List<Integer> findDisappearedNumbers(int[] nums) {
         HashMap<Integer, Integer> hm = new HashMap<>();
         List<Integer> list = new ArrayList<>();
         int n= nums.length;
