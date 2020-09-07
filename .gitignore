@@ -9,3 +9,5 @@ sortNearlySorted.class
 medianPriorityQueue$MedianPriorityQueue.class
 medianPriorityQueue.class
 findDisappearedNumber.class
+mergeKSortedLists$Pair.class
+mergeKSortedLists.class
