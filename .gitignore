@@ -11,3 +11,5 @@ medianPriorityQueue.class
 findDisappearedNumber.class
 mergeKSortedLists$Pair.class
 mergeKSortedLists.class
+writePriorityQueue$PriorityQueue.class
+writePriorityQueue.class
