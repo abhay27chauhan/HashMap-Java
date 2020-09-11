@@ -13,8 +13,11 @@ class writePriorityQueue{
     public static class PriorityQueue{
         ArrayList<Integer> data;
 
-        public PriorityQueue(){
+        public PriorityQueue(int[] arr){
             data = new ArrayList<>();
+            for(int val: arr){
+                this.add(val);
+            }
         }
 
         public void add(int val){
@@ -92,13 +95,9 @@ class writePriorityQueue{
     }
 
     public static void main(String[] args){
-        PriorityQueue pq = new PriorityQueue();
-
         int[] arr = {22, 99, 3, 11, 88, 4, 1};
 
-        for(int val: arr){
-            pq.add(val);       // nlogn
-        }
+        PriorityQueue pq = new PriorityQueue(arr);
 
         for(int val: arr){
             System.out.println(pq.peek());  
