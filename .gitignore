@@ -16,3 +16,10 @@ writePriorityQueue.class
 writeHashMap$HashMap.class
 writeHashMap$HashMap$HMNode.class
 writeHashMap.class
+writePriorityQueueConstructor.class
+writePriorityQueueConstructor$PriorityQueue.class
+comparableComparator$StudentWtComparator.class
+comparableComparator$StudentHtComparator.class
+comparableComparator.class
+comparableComparator$PriorityQueue.class
+comparableComparator$Student.class
